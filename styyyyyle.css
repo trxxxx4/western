@@ -1,0 +1,273 @@
+* {
+    margin: 0px 0px;
+    font-family: 'Press Start 2P';
+    text-decoration: none;
+}
+
+#p1 {
+    color: azure;
+}
+
+.body {
+
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.kpop {
+    font-size: 40px;
+}
+
+.prize {
+    padding: 20%;
+    font-size: 30px;
+}
+
+.loot {
+    width: 100%;
+    height: 100px;
+}
+.link_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.button {
+    width: 500px;
+    height: 100px;
+    border-radius: 12px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 100ms linear;
+}
+
+.main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://fortnite.gg/img/items/3594/locker.jpg?5);
+    background-size: 100% 100vh;
+}
+
+.prize_pole {
+    height: 25%;
+    width: 25%;
+    background-color: orange;
+    height: 20vh;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game_slots {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+h2 {
+    font-size: 24px;
+
+    color: azure;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+    width: 70%;
+
+}
+
+.header {
+    width: 100%;
+    height: 140px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header_main_contanier {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+#input_pole {
+    font-size: 30px;
+    border-radius: 10px;
+    width: 500px;
+    height: 45px;
+}
+
+.header_logo {
+    font-size: 40px;
+
+}
+
+.loot_pole {
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.welcome_button {
+    width: 90%;
+    height: 100px;
+    border-radius: 12px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rules_button {
+    width: 1000px;
+    border-radius: 12px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 200px;
+}
+
+.rules1 {
+    gap: 12px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.rules2 {
+    gap: 12px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+.button:hover{
+    transform: scale(1.05);
+}
+
+@media screen and (max-width:1161px) {
+    * {
+        margin: 0px;
+
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    .header {
+        background: url(https://abrakadabra.fun/uploads/posts/2022-02/1645326855_18-abrakadabra-fun-p-derevyannie-plashki-tekstura-30.jpg);
+
+
+    }
+
+    .header_logo {
+        font-size: 24px;
+        color: azure;
+    }
+
+    .header_main_contanier {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main {
+        background: #EF8011;
+
+    }
+
+    .main_container {
+        width: 90%;
+    }
+
+    #input_pole {
+        font-size: 15px;
+        border-radius: 10px;
+        height: 30px;
+        width: 60%;
+    }
+
+    .button {
+        width: 60%;
+        height: 100px;
+        border-radius: 12px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .prize_pole {
+        height: 25%;
+        width: 25%;
+        background-color: orange;
+
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #game_slots {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 25vb;
+
+    }
+
+    .play {
+        font-size: 20px;
+    }
+
+    .rules1 {
+        gap: 6px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .rules2 {
+        gap: 6px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+
+    }
+    .rules_button{
+        width: 90%;
+        border-radius: 12px;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        height: 200px;
+    }
+}
